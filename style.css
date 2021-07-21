@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 
-.form-submit-btn {
-    animation: fadeIn;
-    animation-duration: 2s;
+.welcome-header {
+    margin: 5% 0;
+}
+
+.p-padding {
+    padding: 0 10%;
 }
