@@ -21,12 +21,51 @@
             crossorigin="anonymous"
         />
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dosis&family=Quicksand&display=swap"
+            rel="stylesheet"
+        />
+
         <title>X, Simplified</title>
     </head>
     <body>
-        <section class="container-fluid center-page">
-            <h1 id="welcome-id" class="text-center welcome-header animate__animated animate__fadeIn">Welcome to X, Simplified.</h1>
-            <p class="text-center p-padding animate__animated animate__fadeInDown">
+        <!-- <img src="./resources/symbol.png"> -->
+        <section class="welcome-page">
+            <h1
+                id="welcome-id"
+                class="
+                    welcome-header
+                    animate__animated animate__fadeIn
+                "
+            >
+                Welcome to X, Simplified.
+            </h1>
+            <p
+                class="
+                    p-padding
+                    animate__animated animate__fadeInUp
+                "
+            >
+                Let's level up with a simple skill today.
+            </p>
+            <div class="welcome-btns">
+                <button class="btn btn-primary get-started">Get Started</button>
+                <button class="btn btn-info about">About Us</button>
+            </div>
+        </section>
+
+        <section class="about-page">
+            <h2 class="about-heading animate__animated animate__fadeIn">
+                Who Are We?
+            </h1>
+            <p
+                class="
+                    p-padding
+                    animate__animated animate__fadeInDown
+                "
+            >
                 X, Simplified is a passion project which intends to explore the
                 benefits of coding to anyone unfamiliar with the subject.
                 Non-STEM students are taught how to use coding for their tasks
@@ -34,22 +73,32 @@
                 concepts. Moreover, it assists kids in starting their coding
                 journey.
             </p>
-            <a href="#switch">Click Me</a>
-            <p class="text-center animate__animated animate__fadeInUp">
+
+            <p class="animate__animated animate__fadeInUp">
                 Each intakes are split into sessions, whereby a number of
                 students are selected. We work with these students, teaching
                 them the ropes and promoting collaboration every step of the
                 way.
             </p>
         </section>
+        
+        <section class="next-session-page">
+            <h2 class="about-heading animate__animated animate__fadeIn">
+                Join One Of Our Sessions!
+            </h1>
+            <p
+                class="
+                    p-padding
+                    animate__animated animate__fadeInDown
+                "
+            >
+                Each month we decide to focus on one language and cater to a specific use case.
+                This month we will do another session of "Python for Everybody". This will serve as a very basic introduction to Python.
+                Anybody and everybody is welcome to join in.
+            </p>
 
-        <p id="switch" class="text-center animate__animated animate__fadeInUp">
-            Each intakes are split into sessions, whereby a number of
-            students are selected. We work with these students, teaching
-            them the ropes and promoting collaboration every step of the
-            way.
-        </p>
-        <a href="#welcome-id">Click Me</a>
+            <p>The registration link will be added here very soon, so keep an eye out! The sessions are scheduled to start from July 21st, 2021.</p>
+        </section>
 
         <script src="./script.js"></script>
         <script

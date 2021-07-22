@@ -5,23 +5,60 @@
 }
 
 body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+section {
     height: 100vh;
+    display: flex;
+
+    flex-flow: nowrap column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+.welcome-page {
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    font-size: 2.5vw;
 }
 
 .welcome-header {
-    
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 7vw;
+}
+
+.welcome-btns > button {
+    font-size: 30px;
+}
+
+.about-page {
+    background-color: rgb(27, 27, 27);
+    color: rgb(241, 241, 241);
+    text-align: center;
+
+    font-size: 2vw;
+}
+
+.about-heading {
+    font-family: 'Dosis', sans-serif;
+    font-size: 5vw;
+
+    margin-bottom: 5%;
+}
+
+.next-session-page {
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    font-size: 2.5vw;
+    text-align: center;
 }
 
 .p-padding {
     padding: 0 10%;
-}
-
-.center-page {
-
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    background-color: rgb(240, 240, 240);
 }
