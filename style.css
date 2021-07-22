@@ -4,10 +4,24 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+}
+
 .welcome-header {
-    margin: 5% 0;
+    
 }
 
 .p-padding {
     padding: 0 10%;
+}
+
+.center-page {
+
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: rgb(240, 240, 240);
 }
