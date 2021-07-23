@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Quicksand;
+    src: url("./resources/Quicksand.ttf");
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url("./resources/Dosis.ttf");
+}
+
 body {
     height: 100%;
     padding: 0;
