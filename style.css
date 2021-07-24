@@ -2,6 +2,8 @@
 *::after,
 *::before {
     box-sizing: border-box;
+    cursor: default;
+    text-align: center;
 }
 
 @font-face {
@@ -31,20 +33,35 @@ section {
     font-family: 'Quicksand', sans-serif;
 }
 
+button {
+    position: relative;
+    z-index: 100;
+}
+
+#particles-js{
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
 .welcome-page {
     background-color: rgb(240, 240, 240);
     margin: auto;
-    font-size: 2.5vw;
+    font-size: 3vh;
 }
 
 .welcome-header {
     color: black;
     font-family: 'Dosis', sans-serif;
-    font-size: 7vw;
+    font-size: 8vh;
 }
 
 .welcome-btns > button {
-    font-size: 30px;
+    font-size: 3vh;
 }
 
 .about-page {
@@ -52,12 +69,12 @@ section {
     color: rgb(241, 241, 241);
     text-align: center;
 
-    font-size: 2vw;
+    font-size: 2.5vh;
 }
 
 .about-heading {
     font-family: 'Dosis', sans-serif;
-    font-size: 5vw;
+    font-size: 8vh;
 
     margin-bottom: 5%;
 }
@@ -65,10 +82,10 @@ section {
 .next-session-page {
     background-color: rgb(240, 240, 240);
     margin: auto;
-    font-size: 2.5vw;
+    font-size: 2.5vh;
     text-align: center;
 }
 
 .p-padding {
-    padding: 0 10%;
+    padding: 0 8vw;
 }
