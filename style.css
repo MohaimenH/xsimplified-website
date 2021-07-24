@@ -39,7 +39,7 @@ button {
 }
 
 .logo {
-    margin-bottom: 0;
+    margin-bottom: 20px;
     z-index: 100;
     background-color: rgb(240, 240, 240);
 }
