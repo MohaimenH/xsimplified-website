@@ -30,7 +30,7 @@ section {
     justify-content: center;
     align-items: center;
 
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 button {
@@ -44,11 +44,11 @@ button {
     background-color: rgb(240, 240, 240);
 }
 
-#particles-js{
-    position:absolute;
+#particles-js {
+    position: absolute;
     width: 100vw;
     height: 100vh;
-    background-image: url('');
+    background-image: url("");
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ button {
 
 .welcome-header {
     color: black;
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
     font-size: 8vh;
 }
 
@@ -79,7 +79,7 @@ button {
 }
 
 .about-heading {
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
     font-size: 8vh;
 
     margin-bottom: 5%;
@@ -94,4 +94,8 @@ button {
 
 .p-padding {
     padding: 0 8vw;
+}
+
+a {
+    cursor: pointer !important;
 }
